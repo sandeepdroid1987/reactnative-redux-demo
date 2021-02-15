@@ -1,0 +1,139 @@
+{
+	"users": [{
+		"id": 1,
+		"name": "Sandeep Gupta",
+		"password": "123456",
+		"isActive": true,
+		"age": 34
+	}],
+	"schedule": [{
+		"id": 1,
+		"day": "Monday",
+		"type": "Dips",
+		"count": "20min",
+		"user": 1,
+		"workout": [{
+				"id": 1,
+				"type": "Dips",
+				"how_type": "count",
+				"count": 20
+			},
+			{
+				"id": 2,
+				"type": "Running",
+				"how_type": "time",
+				"count": 10
+			}
+		]
+	}, {
+		"id": 2,
+		"day": "Tuesday",
+		"count": "20min",
+		"type": "Running",
+		"user": 1,
+		"workout": [{
+				"id": 3,
+				"type": "Jumps",
+				"how_type": "count",
+				"count": 60
+			},
+			{
+				"id": 4,
+				"type": "Running",
+				"how_type": "time",
+				"count": 10
+			}
+		]
+	}, {
+		"id": 3,
+		"day": "Wednesday",
+		"count": "40min",
+		"type": "Abs Pushup",
+		"user": 1,
+		"workout": [{
+				"id": 5,
+				"type": "Abs Pushup",
+				"how_type": "count",
+				"count": 35
+			},
+			{
+				"id": 6,
+				"type": "Jumps",
+				"how_type": "count",
+				"count": 60
+			}
+		]
+	}, {
+		"id": 4,
+		"day": "Thursday",
+		"count": "50min",
+		"type": "Doubble Press",
+		"user": 1,
+		"workout": [{
+				"id": 7,
+				"type": "Running",
+				"how_type": "time",
+				"count": 15
+			},
+			{
+				"id": 8,
+				"type": "Doubble Press",
+				"how_type": "count",
+				"count": 75
+			}
+		]
+	}, {
+		"id": 5,
+		"day": "Friday",
+		"count": "30min",
+		"type": "Jogging",
+		"user": 1,
+		"workout": [{
+				"id": 9,
+				"type": "Jogging",
+				"how_type": "time",
+				"count": 20
+			},
+			{
+				"id": 10,
+				"type": "Abs Pushup",
+				"how_type": "count",
+				"count": 40
+			}
+		]
+	}, {
+		"id": 6,
+		"day": "Saturday",
+		"count": "40min",
+		"type": "Butterfly",
+		"user": 1,
+		"workout": [{
+				"id": 11,
+				"type": "Running",
+				"how_type": "time",
+				"count": 20
+			},
+			{
+				"id": 12,
+				"type": "Butterfly",
+				"how_type": "count",
+				"count": 50
+			}
+		]
+	}],
+	"workout_status": [{
+			"id": 1,
+			"user": 1,
+			"workout": 1,
+			"status": "Completed",
+			"count": 1
+		},
+		{
+			"id": 2,
+			"user": 1,
+			"workout": 2,
+			"status": "Not Done",
+			"count": 1
+		}
+	]
+}
