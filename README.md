@@ -1,14 +1,5 @@
-# Mobile App challenge for VATION GmbH
+# Redux - ReactNative Demo
 
-Welcome to our Mobile App challenge!!!
-
-First of all thanks for taking your time doing this test, you will find detailed instructions and exercises to perform this test but any feedback that you think can help us to improve the test will be more than welcome.
-
-## Overview
-
-In this test we will evaluate your knowledge about Mobile App development. It will be an applicable case of a task that you will perform in a normal day at *VATION*. 
-
-We are providing a basic skeleton of an Expo/React Native application, which you will use to develop the app for the challenge.
 
 ## Setup
 
@@ -23,8 +14,6 @@ Optional, but nice to have:
 * [XCode](https://apps.apple.com/app/xcode/id497799835?mt=12)
 
 ## Project structure
-
-vation-mobile-challenge
 ├── app.json # Application configuration
 ├── assets # Assets directory
 ├── babel.config.js
@@ -58,9 +47,9 @@ Launch the default browser with the Expo application:
 yarn web
 ```
 
-## The Challenge
+## What it includes
 
-You have to implement an Expo/React Native app that fulfills the following requirements:
+An Expo/React Native app that fulfills the following requirements:
 
 1. A user can authenticate and visualise his/her training plan for the week.
 2. A user can see details about the workout sessions (past and future): name, duration, type, status (completed or not).
@@ -73,11 +62,7 @@ You have to implement an Expo/React Native app that fulfills the following requi
 9. The developer should create a private project to github with the solution and invite the indicated user in the email.
 
 
-## What we expect from you
+## Things to note
 
-* Create a mobile app in React Native or Expo that complies to the required specifications. It should be able to run on an Android or iOS simulator.
-* APIs consumed by the app should be mocked and data models defined.
-* You can use any external libraries as you need for the implementation.
-* You are free to make assumptions on the existing system, as long as you state them clearly.
-* Solution should take into consideration the peculiarities of mobile devices in terms of UX.
-* Tests are a plus.
+* It will run on an Android or iOS simulator.
+* APIs consumed by the app are mocked and data models defined.
